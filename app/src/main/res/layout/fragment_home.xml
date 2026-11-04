@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Welcome Back,"
+            android:textColor="#6C757D"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvHomeUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Athlete"
+            android:textColor="#212529"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Daily Snapshot Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="Today's Target"
+                android:textColor="#212529"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Stay consistent with your workouts and meet your daily protein targets."
+                android:textColor="#6C757D"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Quick Access Tools Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Fitness Calculators &amp; Guides"
+            android:textColor="#212529"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- BMI Calculator Button -->
+        <Button
+            android:id="@+id/btnOpenBmiCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#007BFF"
+            android:text="BMI Calculator"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!-- Calorie Calculator Button -->
+        <Button
+            android:id="@+id/btnOpenCalorieCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#28A745"
+            android:text="Calorie Calculator"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!-- Exercise Details Guide Button -->
+        <Button
+            android:id="@+id/btnOpenExerciseDetail"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:backgroundTint="#6F42C1"
+            android:text="Exercise Guide &amp; Details"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

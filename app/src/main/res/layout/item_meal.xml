@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="6dp">
+
+        <TextView
+            android:id="@+id/tvItemMealName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Meal Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#212529" />
+
+        <TextView
+            android:id="@+id/tvItemCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="450 kcal"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#28A745" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvItemMacros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P: 30g | C: 50g | F: 12g"
+        android:textSize="14sp"
+        android:textColor="#6C757D" />
+
+</LinearLayout>
